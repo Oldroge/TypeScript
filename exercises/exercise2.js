@@ -12,5 +12,5 @@ var rainbowColors;
 ;
 var getBlueColor = rainbowColors.blue;
 console.log(getBlueColor);
-var getIndigoByKey = rainbowColors['anil'];
+var getIndigoByKey = rainbowColors['indigo'];
 console.log(getIndigoByKey);

@@ -13,5 +13,5 @@ enum rainbowColors {
 const getBlueColor = rainbowColors.blue;
 console.log(getBlueColor);
 
-const getIndigoByKey = rainbowColors['anil'];
+const getIndigoByKey = rainbowColors['indigo'];
 console.log(getIndigoByKey);
