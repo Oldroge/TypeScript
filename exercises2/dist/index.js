@@ -24,6 +24,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Exercise = __importStar(require("./exercises"));
+// Answers by material:
+console.log("========ANSWERS BY MATERIAL===========");
 console.log(Exercise.greeter('Maria'));
 console.log(Exercise.personAge('Maria', 40));
 console.log(`A soma do array é igual a ${Exercise.sumArray([3, 6, 9])}`);
@@ -36,3 +38,7 @@ console.log(`Quadrado de lado 100cm: ${Exercise.square(100)}cm²`);
 console.log(`Retângulo de base 10cm e altura 25cm: ${Exercise.rectangle(10, 25)}cm²`);
 console.log(`Retângulo de base 5cm e altura 30cm: ${Exercise.rectangle(5, 30)}cm²`);
 console.log(`Retângulo de base 100cm e altura 200cm: ${Exercise.rectangle(100, 200)}cm²`);
+// Answers by me:
+console.log("========ANSWERS BY ME===========");
+// Exercise 1, results:
+console.log(`A área do losangulo entre D: 32cm e d: 18cm é: ${Exercise.calculateRhombusArea(32, 18)}cm²`);
