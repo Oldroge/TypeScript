@@ -48,3 +48,7 @@ console.log(`A área do losangulo entre D: 75cm e d: 25cm é: ${Exercise.calcula
 console.log(`A área do trapezoide com base com B: 100cm, b: 70cm e h: 50cm é: ${Exercise.calculateTrapezoideArea(100, 70, 50)}`);
 console.log(`A área do trapezoide com base com B: 75cm, b: 50cm e h: 35cm é: ${Exercise.calculateTrapezoideArea(75, 50, 35)}`);
 console.log(`A área do trapezoide com base com B: 150cm, b: 120cm e h: 80cm é: ${Exercise.calculateTrapezoideArea(150, 120, 80)}`);
+// exercise 3, response:
+console.log(`A area do circulo com r: 25cm é: ${Exercise.circleArea(25)}`);
+console.log(`A area do circulo com r: 100cm é: ${Exercise.circleArea(100)}`);
+console.log(`A area do circulo com r: 12,5cm é: ${Exercise.circleArea(12.5)}`);

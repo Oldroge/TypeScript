@@ -46,3 +46,12 @@ export function calculateRhombusArea(D: number, d: number): number {
 export function calculateTrapezoideArea(B: number, b: number, h: number): number {
     return ((B + b) * h) / 2;
 }
+
+// 3. Crie uma nova função para calcular a área de um círculo. A área do círculo de raio r é encontrada multiplicando o raio ao quadrado pelo número irracional ℼ (em geral utilizamos ℼ = 3,14). ℼ * r²
+// Calcule a área de um círculo de raio igual 25cm;
+// Calcule a área de um círculo de raio igual 100cm;
+// Calcule a área de um círculo de raio igual 12,5cm.
+export function circleArea(r: number): number {
+    const pi = 3.14;
+    return pi * Math.pow(r, 2);
+}

@@ -74,3 +74,8 @@ console.log(
     80
   )}`
 );
+
+// exercise 3, response:
+console.log(`A area do circulo com r: 25cm é: ${Exercise.circleArea(25)}`);
+console.log(`A area do circulo com r: 100cm é: ${Exercise.circleArea(100)}`);
+console.log(`A area do circulo com r: 12,5cm é: ${Exercise.circleArea(12.5)}`);

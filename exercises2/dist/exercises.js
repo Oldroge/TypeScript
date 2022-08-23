@@ -1,7 +1,7 @@
 "use strict";
 // Material exercises:
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.calculateTrapezoideArea = exports.calculateRhombusArea = exports.rectangle = exports.square = exports.triangle = exports.sumArray = exports.add = exports.personAge = exports.greeter = void 0;
+exports.circleArea = exports.calculateTrapezoideArea = exports.calculateRhombusArea = exports.rectangle = exports.square = exports.triangle = exports.sumArray = exports.add = exports.personAge = exports.greeter = void 0;
 function greeter(name) {
     return `Olá ${name}!`;
 }
@@ -47,3 +47,12 @@ function calculateTrapezoideArea(B, b, h) {
     return ((B + b) * h) / 2;
 }
 exports.calculateTrapezoideArea = calculateTrapezoideArea;
+// 3. Crie uma nova função para calcular a área de um círculo. A área do círculo de raio r é encontrada multiplicando o raio ao quadrado pelo número irracional ℼ (em geral utilizamos ℼ = 3,14). ℼ * r²
+// Calcule a área de um círculo de raio igual 25cm;
+// Calcule a área de um círculo de raio igual 100cm;
+// Calcule a área de um círculo de raio igual 12,5cm.
+function circleArea(r) {
+    const pi = 3.14;
+    return pi * Math.pow(r, 2);
+}
+exports.circleArea = circleArea;
